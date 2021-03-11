@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Typography Motion Effect | Codrops</title>
+		<meta name="description" content="Recreation of a letter stagger animation with GSAP and Splitting.js" />
+		<meta name="keywords" content="stagger, gsap, letter, text, typography, animation, web design, javascript" />
+		<meta name="author" content="Codrops" />
+		<!-- <link rel="shortcut icon" href="favicon.ico"> -->
+		<link rel="stylesheet" href="https://use.typekit.net/lwc3axy.css">
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+	</head>
+	<body class="loading">
+		<main>
+			<div class="frame">
+				<a class="frame__home">
+				<!-- 	<span class="frame__home-title">JF</span>
+					<span class="frame__home-sub">2020</span> -->
+				</a>
+				<div class="frame__title-wrap">
+					<h1 class="frame__title">Huck Fairman Reveal</h1>
+				<!-- 	<div class="frame__links">
+						<a href="https://tympanus.net/Tutorials/ImageGridMotionEffect/index.html">Previous demo</a>
+						<a href="https://tympanus.net/codrops/?p=50136">Article</a>
+						<a href="https://github.com/codrops/TypographyMotion/">GitHub</a>
+					</div> -->
+				</div>
+				<a class="frame__about">
+					<span class="frame__about-item frame__about-item--current">About</span>
+					<span class="frame__about-item">Close</span>
+				</a>
+			</div>
+			<div class="content">
+				<section class="content__item content__item--home content__item--current">
+					<p class="content__paragraph content__paragraph--large content__paragraph--first" data-splitting>I am Concerned</p>
+					<p class="content__paragraph content__paragraph--large  content__paragraph--last" data-splitting>about our Planet</p>
+				</section>
+				<section class="content__item content__item--about">
+					<p class="content__paragraph" data-splitting>Huck Fairman is</p>
+					<p class="content__paragraph content__paragraph--right" data-splitting>a Princeton</p>
+					<p class="content__paragraph" data-splitting>based <em>poet</em> and <em>novelist</em></p>
+					<p class="content__paragraph" data-splitting>worried</p>
+					<figure class="content__figure">
+						<img class="content__figure-img" src="img/huck.jpg" alt="Some image" />
+						<figcaption class="content__figure-caption">We are now face to face with a crucial point in the history of our planet and the future of civilization. We have no alternative but immediate and drastic action to save civilization.</figcaption>
+					</figure>
+				</section>
+			</div>
+		</main>
+		<svg class="cursor" width="80" height="80" viewBox="0 0 80 80">
+			<circle class="cursor__inner" cx="40" cy="40" r="20"/>
+		</svg>
+		<script src="js/index.js"></script>
+	</body>
+</html>
