@@ -6,8 +6,8 @@
   "scripts": {
     "start": "parcel src/index.html --open",
     "clean": "rd /s /q dist",
-    "build:parcel": "parcel build src/index.html --no-content-hash --no-minify --no-source-maps --public-url ./",
-    "build": "npm run clean && npm run build:parcel"
+    "build": "parcel build src/index.html",
+   
   },
   
   "keywords": [],
